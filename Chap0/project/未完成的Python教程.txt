@@ -1,0 +1,20 @@
+#未完成的Python教程
+
+1.Python是一门相对宽松的语言，里面包含编程语言通用的概念，比如
+ - 可以自由赋值的变量： 
+     a = 1   b = 'good' 
+ - def函数:   
+     def add(a,b):
+         return a+b
+ -import调用外部函数:
+     from sys import argv
+     from os.path import exists
+ -其他好用的函数：
+     print ("You can print anything.")
+     input ("What do you want to tell? Please write them: ")
+ -方便的文件操作
+     open()
+     read()
+     close()
+2.Python有一些独特的语法，比如函数定义后要使用冒号，很容易就会忘记。还有print变量时中间有一个%，就像旋转门转换两端的代号和实际意义。
+3.Python是编程，IT民工不是浪得虚名，编程是一种体力劳动，代码写的越多越熟练，汗水会记得你的努力。

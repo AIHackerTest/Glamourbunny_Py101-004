@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+#输入你想查询的城市
+city = input("City: ")
+
+#读取天气文件到列表
+weather_list = open('weather_info.txt', mode='r',encoding='UTF-8').readlines()
+#换成字典
+for weather_line in weather_list:
+    #每行字符串查找
+    if weather_line.find(city) > -1:
+        #将城市和天气分离
+        city_weather = weather_line.split(',', 1)   
+        #显示天气
+        print(city_weather[0],":  ",city_weather[1])
+        break
+
+#全都没有时提示
+if weather_line.find(city) == -1:
+    print("不在服务区！")
+
